@@ -3,10 +3,8 @@ node.master: ${NODE_MASTER}
 node.name: ${HOSTNAME}
 
 bootstrap.mlockall: ${BOOTSTRAP_MLOCKALL}
-jvm.options: ${ES_JAVA_OPTS} ${JVM_ES_HEAP_SIZE}
-network.host: 0.0.0.0
 
-xpack.security.enabled: false
+network.host: 0.0.0.0
 
 cloud:
   kubernetes:
