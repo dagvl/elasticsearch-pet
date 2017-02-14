@@ -6,6 +6,8 @@ bootstrap.mlockall: ${BOOTSTRAP_MLOCKALL}
 
 network.host: 0.0.0.0
 
+xpack.security.enabled: false
+
 cloud:
   kubernetes:
     service: ${SERVICE}
